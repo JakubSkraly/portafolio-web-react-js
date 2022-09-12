@@ -3,8 +3,33 @@ import './Contact.css';
 import { MdOutlineEmail } from 'react-icons/md';
 import { RiMessengerLine } from 'react-icons/ri';
 import { BsWhatsapp } from 'react-icons/bs';
+import { useRef } from 'react';
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm(
+            // Service ID
+            process.env.REACT_APP_YOUR_SERVICE_ID,
+            // Template ID
+            process.env.REACT_APP_YOUR_TEMPLATE_ID,
+            form.current,
+            // Public Key
+            process.env.REACT_APP_YOUR_PUBLIC_KEY
+        ).then((result) => {
+            if (result.text) {
+                e.target.reset();
+            }
+        }, (error) => {
+            console.log(error.text);
+        });
+    };
+
     return (
         <section id='contact'>
             <h5>Póngase en contacto</h5>
@@ -39,7 +64,7 @@ const Contact = () => {
                         </a>
                     </article>
                 </div>
-                <form action="">
+                <form ref={form} onSubmit={sendEmail} autoComplete='off'>
                     <input type="text" name='nombre' placeholder='Nombre Completo' required />
                     <input type="email" name="email" placeholder="Email" required />
                     <textarea name="mensaje" rows="7" placeholder='Mensaje' required ></textarea>
