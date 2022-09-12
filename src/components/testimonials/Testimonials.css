@@ -1,4 +1,4 @@
-#testimonials {
+#voluntariados {
     padding-top: 3rem;
 }
 
@@ -50,7 +50,7 @@
 
 /* ========== Media Queries (Small Devices) ========== */
 @media screen and (max-width: 600px) {
-    #testimonials {
+    #voluntariados {
         padding-top: 2rem;
     }
 

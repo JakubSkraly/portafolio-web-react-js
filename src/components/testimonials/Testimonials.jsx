@@ -61,7 +61,7 @@ const data = [
 
 const Testimonials = () => {
     return (
-        <section id='testimonials'>
+        <section id='voluntariados'>
             <h5>Voluntariados Realizados</h5>
             <h2>ORGANIZACIONES</h2>
 
