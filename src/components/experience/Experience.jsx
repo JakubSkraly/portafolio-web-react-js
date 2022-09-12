@@ -6,7 +6,7 @@ const Experience = () => {
     return (
         <section id="experience">
             <h5>Conocimientos</h5>
-            <h2>Mi Experiencia</h2>
+            <h2>MI EXPERIENCIA</h2>
 
             <div className="container experience__container">
                 <div className="experience__frontend">
@@ -24,18 +24,18 @@ const Experience = () => {
                         <article className='experience__details'>
                             <BsPatchCheckFill className='experience__details-icon' />
                             <div>
-                                <h4>CSS</h4>
+                                <h4>Java Script</h4>
                                 <small className='text-light'>
-                                    Intermedio
+                                    Avanzado
                                 </small>
                             </div>
                         </article>
                         <article className='experience__details'>
                             <BsPatchCheckFill className='experience__details-icon' />
                             <div>
-                                <h4>Java Script</h4>
+                                <h4>CSS</h4>
                                 <small className='text-light'>
-                                    Avanzado
+                                    Intermedio
                                 </small>
                             </div>
                         </article>
@@ -53,7 +53,7 @@ const Experience = () => {
                             <div>
                                 <h4>React</h4>
                                 <small className='text-light'>
-                                    Basico
+                                    Básico
                                 </small>
                             </div>
                         </article>
@@ -66,6 +66,15 @@ const Experience = () => {
                         <article className='experience__details'>
                             <BsPatchCheckFill className='experience__details-icon' />
                             <div>
+                                <h4>PHP</h4>
+                                <small className='text-light'>
+                                    Avanzado
+                                </small>
+                            </div>
+                        </article>
+                        <article className='experience__details'>
+                            <BsPatchCheckFill className='experience__details-icon' />
+                            <div>
                                 <h4>Node JS</h4>
                                 <small className='text-light'>
                                     Intermedio
@@ -75,7 +84,7 @@ const Experience = () => {
                         <article className='experience__details'>
                             <BsPatchCheckFill className='experience__details-icon' />
                             <div>
-                                <h4>MongoDB</h4>
+                                <h4>C#</h4>
                                 <small className='text-light'>
                                     Intermedio
                                 </small>
@@ -84,9 +93,33 @@ const Experience = () => {
                         <article className='experience__details'>
                             <BsPatchCheckFill className='experience__details-icon' />
                             <div>
-                                <h4>PHP</h4>
+                                <h4>Python</h4>
                                 <small className='text-light'>
-                                    Avanzado
+                                    Básico
+                                </small>
+                            </div>
+                        </article>
+                        <article className='experience__details'>
+                            <BsPatchCheckFill className='experience__details-icon' />
+                            <div>
+                                <h4>Spring Boot</h4>
+                                <small className='text-light'>
+                                    Básico
+                                </small>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <div className="experience__frontend">
+                    <h3>Database</h3>
+                    <div className="experience__content">
+                        <article className='experience__details'>
+                            <BsPatchCheckFill className='experience__details-icon' />
+                            <div>
+                                <h4>SQL</h4>
+                                <small className='text-light'>
+                                    Intermedio
                                 </small>
                             </div>
                         </article>
@@ -102,12 +135,64 @@ const Experience = () => {
                         <article className='experience__details'>
                             <BsPatchCheckFill className='experience__details-icon' />
                             <div>
-                                <h4>Python</h4>
+                                <h4>MariaDB</h4>
                                 <small className='text-light'>
-                                    Basico
+                                    Intermedio
                                 </small>
                             </div>
                         </article>
+                        <article className='experience__details'>
+                            <BsPatchCheckFill className='experience__details-icon' />
+                            <div>
+                                <h4>MongoDB</h4>
+                                <small className='text-light'>
+                                    Básico
+                                </small>
+                            </div>
+                        </article>
+                        <article className='experience__details'>
+                            <BsPatchCheckFill className='experience__details-icon' />
+                            <div>
+                                <h4>Node JS</h4>
+                                <small className='text-light'>
+                                    Básico
+                                </small>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <div className="experience__backend">
+                    <h3>Metodologias</h3>
+                    <div className="experience__content">
+                        <article className='experience__details'>
+                            <BsPatchCheckFill className='experience__details-icon' />
+                            <div>
+                                <h4>SCRUM Fundamentals</h4>
+                                <small className='text-light'>
+                                    Intermedio
+                                </small>
+                            </div>
+                        </article>
+                        <article className='experience__details'>
+                            <BsPatchCheckFill className='experience__details-icon' />
+                            <div>
+                                <h4>Rational Unified Process</h4>
+                                <small className='text-light'>
+                                    Intermedio
+                                </small>
+                            </div>
+                        </article>
+                        <article className='experience__details'>
+                            <BsPatchCheckFill className='experience__details-icon' />
+                            <div>
+                                <h4>PMBOK</h4>
+                                <small className='text-light'>
+                                    Intermedio
+                                </small>
+                            </div>
+                        </article>
+                        
                     </div>
                 </div>
             </div>

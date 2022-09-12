@@ -11,7 +11,7 @@ const Portafolio = () => {
     return (
         <section id='portafolio'>
             <h5>Proyectos</h5>
-            <h2>Portafolio</h2>
+            <h2>PORTAFOLIO</h2>
 
             <div className="container portafolio__container">
                 <article className='portafolio__item'>

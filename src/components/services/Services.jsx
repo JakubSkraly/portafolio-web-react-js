@@ -6,7 +6,7 @@ const Services = () => {
     return (
         <section id='services'>
             <h5>Qué ofrezco</h5>
-            <h2>Servicios</h2>
+            <h2>SERVICIOS</h2>
 
             <div className="container services__container">
                 <article className='service'>
@@ -17,43 +17,43 @@ const Services = () => {
                         <li>
                             <BiCheck className='service__list-icon' />
                             <p>
-                                Lorem ipsum dolor sit, amet consectetur elit.
+                                Blogs
                             </p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon' />
                             <p>
-                                Lorem ipsum dolor sit, amet consectetur elit.
+                                Landing Page
                             </p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon' />
                             <p>
-                                Lorem ipsum dolor sit, amet consectetur elit.
+                                Páginas Informativas
                             </p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon' />
                             <p>
-                                Lorem ipsum dolor sit, amet consectetur elit.
+                                Páginas web multiplataforma
                             </p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon' />
                             <p>
-                                Lorem ipsum dolor sit, amet consectetur elit.
+                                Maquetación de páginas web
                             </p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon' />
                             <p>
-                                Lorem ipsum dolor sit, amet consectetur elit.
+                                Mejoramiento de la experiencia del usuario
                             </p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon' />
                             <p>
-                                Lorem ipsum dolor sit, amet consectetur elit.
+                                Mantenimiento de diseño de páginas web
                             </p>
                         </li>
                     </ul>
@@ -67,43 +67,43 @@ const Services = () => {
                         <li>
                             <BiCheck className='service__list-icon' />
                             <p>
-                                Lorem ipsum dolor sit, amet consectetur elit.
+                                CRM
                             </p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon' />
                             <p>
-                                Lorem ipsum dolor sit, amet consectetur elit.
+                                E-COMMERCE
                             </p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon' />
                             <p>
-                                Lorem ipsum dolor sit, amet consectetur elit.
+                                Aula Virtual
                             </p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon' />
                             <p>
-                                Lorem ipsum dolor sit, amet consectetur elit.
+                                Creación de API's
                             </p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon' />
                             <p>
-                                Lorem ipsum dolor sit, amet consectetur elit.
+                                Mantenimiento de base de datos
                             </p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon' />
                             <p>
-                                Lorem ipsum dolor sit, amet consectetur elit.
+                                Mantenimiento de Páginas dinámicas
                             </p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon' />
                             <p>
-                                Lorem ipsum dolor sit, amet consectetur elit.
+                                Asesorias de soporte a páginas web
                             </p>
                         </li>
                     </ul>
@@ -111,51 +111,34 @@ const Services = () => {
 
                 <article className='service'>
                     <div className="service__head">
-                        <h3>UI/UX Design</h3>
+                        <h3>Análisis Organizacional</h3>
                     </div>
                     <ul className="service__list">
                         <li>
                             <BiCheck className='service__list-icon' />
                             <p>
-                                Lorem ipsum dolor sit, amet consectetur elit.
+                                Diseño de Sistemas
                             </p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon' />
                             <p>
-                                Lorem ipsum dolor sit, amet consectetur elit.
+                                Desarrollo de Diagrama de Flujos
                             </p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon' />
                             <p>
-                                Lorem ipsum dolor sit, amet consectetur elit.
+                                Modelamiento de Procesos
                             </p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon' />
                             <p>
-                                Lorem ipsum dolor sit, amet consectetur elit.
+                                Modelamiento de Sistemas y Datos
                             </p>
                         </li>
-                        <li>
-                            <BiCheck className='service__list-icon' />
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur elit.
-                            </p>
-                        </li>
-                        <li>
-                            <BiCheck className='service__list-icon' />
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur elit.
-                            </p>
-                        </li>
-                        <li>
-                            <BiCheck className='service__list-icon' />
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur elit.
-                            </p>
-                        </li>
+                        
                     </ul>
                 </article>
             </div>
