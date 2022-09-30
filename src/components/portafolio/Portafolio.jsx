@@ -2,10 +2,10 @@ import React from 'react';
 import './Portafolio.css';
 import EncriptadorImg from '../../assets/img/encriptador-java-script.png'
 import AhorcadoImg from '../../assets/img/ahorcado-java-script.png';
-import Proyecto1 from '../../assets/img/portfolio1.jpg';
-import Proyecto2 from '../../assets/img/portfolio2.jpg';
-import Proyecto3 from '../../assets/img/portfolio3.jpg';
-import Proyecto4 from '../../assets/img/portfolio4.jpg';
+import KarensCakes from '../../assets/img/karenscakes.png';
+import Proyecto2 from '../../assets/img/platzi.jpg';
+import Proyecto3 from '../../assets/img/reto_01.png';
+import Proyecto4 from '../../assets/img/reto_02.png';
 
 const Portafolio = () => {
     return (
@@ -46,14 +46,14 @@ const Portafolio = () => {
 
                 <article className='portafolio__item'>
                     <div className="portafolio__item-image">
-                        <img src={Proyecto1} alt="Proyecto1" />
+                        <img src={KarensCakes} alt="KarensCakes" />
                     </div>
-                    <h3>Encriptador de texto con JS</h3>
+                    <h3>Proyecto E-Commerce Karens Cakes</h3>
                     <div className="portafolio__item-buttons">
-                        <a href="https://github.com/JakubSkraly/encriptador-java-script" target='_blank' rel="noreferrer" className='btn'>
+                        <a href="https://github.com/JakubSkraly/E-comerceKarensCakes" target='_blank' rel="noreferrer" className='btn'>
                             GitHub
                         </a>
-                        <a href="https://jakubskraly.github.io/encriptador-java-script/" target='_blank' rel="noreferrer" className='btn btn-primary'>
+                        <a href="https://www.karenscakes.tk/" target='_blank' rel="noreferrer" className='btn btn-primary'>
                             Live Demo
                         </a>
                     </div>
@@ -63,45 +63,45 @@ const Portafolio = () => {
                     <div className="portafolio__item-image">
                         <img src={Proyecto2} alt="Proyecto2" />
                     </div>
-                    <h3>Encriptador de texto con JS</h3>
-                    <div className="portafolio__item-buttons">
-                        <a href="https://github.com/JakubSkraly/encriptador-java-script" target='_blank' rel="noreferrer" className='btn'>
+                    <h3>Proyectos De Platzi - Proximamente</h3>
+                    {/* <div className="portafolio__item-buttons">
+                        <a href="https://github.com/" target='_blank' rel="noreferrer" className='btn'>
                             GitHub
                         </a>
-                        <a href="https://jakubskraly.github.io/encriptador-java-script/" target='_blank' rel="noreferrer" className='btn btn-primary'>
+                        <a href="https://github.com/" target='_blank' rel="noreferrer" className='btn btn-primary'>
                             Live Demo
                         </a>
-                    </div>
+                    </div> */}
                 </article>
 
                 <article className='portafolio__item'>
                     <div className="portafolio__item-image">
                         <img src={Proyecto3} alt="Proyecto3" />
                     </div>
-                    <h3>Encriptador de texto con JS</h3>
-                    <div className="portafolio__item-buttons">
-                        <a href="https://github.com/JakubSkraly/encriptador-java-script" target='_blank' rel="noreferrer" className='btn'>
+                    <h3>Proyectos Oracle ONE - Proximamente</h3>
+                    {/* <div className="portafolio__item-buttons">
+                        <a href="https://github.com/" target='_blank' rel="noreferrer" className='btn'>
                             GitHub
                         </a>
-                        <a href="https://jakubskraly.github.io/encriptador-java-script/" target='_blank' rel="noreferrer" className='btn btn-primary'>
+                        <a href="https://github.com/" target='_blank' rel="noreferrer" className='btn btn-primary'>
                             Live Demo
                         </a>
-                    </div>
+                    </div> */}
                 </article>
 
                 <article className='portafolio__item'>
                     <div className="portafolio__item-image">
                         <img src={Proyecto4} alt="Proyecto4" />
                     </div>
-                    <h3>Encriptador de texto con JS</h3>
-                    <div className="portafolio__item-buttons">
-                        <a href="https://github.com/JakubSkraly/encriptador-java-script" target='_blank' rel="noreferrer" className='btn'>
+                    <h3>Proyectos Oracle ONE - Proximamente</h3>
+                    {/* <div className="portafolio__item-buttons">
+                        <a href="https://github.com/" target='_blank' rel="noreferrer" className='btn'>
                             GitHub
                         </a>
-                        <a href="https://jakubskraly.github.io/encriptador-java-script/" target='_blank' rel="noreferrer" className='btn btn-primary'>
+                        <a href="https://github.com/" target='_blank' rel="noreferrer" className='btn btn-primary'>
                             Live Demo
                         </a>
-                    </div>
+                    </div> */}
                 </article>
             </div>
             {/* 2:20 */}
